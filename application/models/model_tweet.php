@@ -1,7 +1,14 @@
 <?php
 
 class Model_tweet extends MY_Model{
-	protected $_table = "api_tweet";
-	protected $primary_key="id";
-	protected $return_type="array";
+
+	public function __construct()
+	{
+		$this->table = 'api_tweet';
+        $this->primary_key = 'id';
+        $this->return_type="array";
+        $this->timestamps = false;
+        
+        parent::__construct();
+	}
 }

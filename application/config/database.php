@@ -75,10 +75,10 @@ $query_builder = TRUE;
 
 $db['default'] = array(
 	'dsn'	=> '',
-	'hostname' => 'localhost',
-	'username' => 'root',
-	'password' => '',
-	'database' => 'labsapi',
+	'hostname' => 'us-cdbr-azure-west-c.cloudapp.net',
+	'username' => 'bd68cde7311e07',
+	'password' => '68d6eeec',
+	'database' => 'smartlabs',
 	'dbdriver' => 'mysqli',
 	'dbprefix' => '',
 	'pconnect' => FALSE,
